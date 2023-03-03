@@ -3,7 +3,7 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.3.6
-    created: "2023-03-03T16:20:44.855868-05:00"
+    created: "2023-03-03T16:24:37.920775-05:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: b7a515dcfc739b1b995a5216c07535d437652b4865a797f21d4ad1958c8b3952
     home: https://grafana.net
@@ -38,7 +38,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.63.0
-    created: "2023-03-03T16:20:44.854163-05:00"
+    created: "2023-03-03T16:24:37.919039-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -90,7 +90,7 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.8.0
-    created: "2023-03-03T16:20:44.856531-05:00"
+    created: "2023-03-03T16:24:37.921444-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: f069650d767d4cf68664418274cf97892e0b99ed79ed37f6b449d9c94ec0266d
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -116,7 +116,7 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2023-03-03T16:20:44.857258-05:00"
+    created: "2023-03-03T16:24:37.922193-05:00"
     description: A Helm chart for prometheus node-exporter
     digest: 28aab7db20f3e5caae6f7217d3d1bf17fbc940ca3e58de97ccfecc41d8d75e9d
     home: https://github.com/prometheus/node_exporter/
@@ -136,4 +136,4 @@ entries:
     urls:
     - https://unstructured-io.github.io/prometheus-community-helm-charts/charts/kube-prometheus-stack/charts/prometheus-node-exporter-4.14.0.tgz
     version: 4.14.0
-generated: "2023-03-03T16:20:44.836956-05:00"
+generated: "2023-03-03T16:24:37.901917-05:00"
