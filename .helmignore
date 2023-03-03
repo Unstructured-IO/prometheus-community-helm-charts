@@ -26,7 +26,3 @@ ci/
 kube-prometheus-*.tgz
 
 unittests/
-templates/thanos-ruler/
-templates/grafana/dashbaords-1.14/namespace-*.yaml
-templates/grafana/dashboards-1.14/k8s-resources-workloads-namespace.yaml
-templates/grafana/dashboards-1.14/k8s-resources-namespace.yaml
