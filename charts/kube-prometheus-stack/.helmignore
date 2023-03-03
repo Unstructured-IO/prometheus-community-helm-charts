@@ -26,3 +26,5 @@ ci/
 kube-prometheus-*.tgz
 
 unittests/
+templates/thanos-ruler/
+template/grafana/nodes-darwin*
