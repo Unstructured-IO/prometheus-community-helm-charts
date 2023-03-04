@@ -113,6 +113,34 @@ entries:
     urls:
     - https://unstructured-io.github.io/prometheus-community-helm-charts/charts/kube-prometheus-stack/charts/kube-state-metrics-4.31.0.tgz
     version: 4.31.0
+  prometheus-blackbox-exporter:
+  - apiVersion: v2
+    appVersion: 0.23.0
+    created: "2023-03-04T06:23:39.999689133Z"
+    description: Prometheus Blackbox Exporter
+    digest: 27ec65408e37eed3083894d0306eaac504cdbcd14fb79e330c8826085f4425b2
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/Unstructured-IO/prometheus-community-helm-charts/releases/download/prometheus-blackbox-exporter-7.6.1/prometheus-blackbox-exporter-7.6.1.tgz
+    version: 7.6.1
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.5.0
@@ -136,4 +164,4 @@ entries:
     urls:
     - https://unstructured-io.github.io/prometheus-community-helm-charts/charts/kube-prometheus-stack/charts/prometheus-node-exporter-4.14.0.tgz
     version: 4.14.0
-generated: "2023-03-03T16:24:37.901917-05:00"
+generated: "2023-03-04T06:23:39.999695433Z"
